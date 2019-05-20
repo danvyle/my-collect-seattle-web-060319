@@ -4,7 +4,6 @@ def my_collect(collection)
    yield collection[i].upcase
     i += 1
   end 
-    new_collection
 end
 
 # def my_each(array)
