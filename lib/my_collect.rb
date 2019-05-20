@@ -1,6 +1,6 @@
 def my_collect(collection)
   i = 0 
-  while i < collection.length
+  while i < collection.length do |i|
     new_collection = []
     new_collection << yield collection[i].upcase)
     i += 1
